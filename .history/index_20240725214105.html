@@ -53,7 +53,8 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
             <a href="#" class="container__link">
                 <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
                 <p class="container__texto">Minha sacola</p>
@@ -72,7 +73,8 @@
     <main class="principal">
         <h2 class="principal__titulo">Dados do cadastro</h2>
 
-        <form class="principal__formulario" id="formulario" target="_blank" onsubmit="location.replace('./cadastro-finalizado.html')" data-js="formulario">
+        <form class="principal__formulario" id="formulario" target="_blank"
+            onsubmit="location.replace('./cadastro-finalizado.html')" data-js="formulario">
             <fieldset>
                 <legend class="formulario__titulo">Dados pessoais</legend>
                 <div class="formulario__campo">
@@ -86,7 +88,8 @@
                     </div>
                     <div class="formulario__campo">
                         <label class="campo__etiqueta" for="telefone">Contato</label>
-                        <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita" required />
+                        <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita"
+                            required />
                     </div>
                 </div>
                 <div class="formulario__campo">
@@ -97,13 +100,13 @@
 
             <fieldset>
                 <legend class="formulario__titulo">Endereço</legend>
-
+    
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="cep">CEP</label>
                     <input name="cep" id="cep" class="campo__escrita" required />
                     <div id="erro" class="formulario__erro" data-js="mensagem-de-erro"></div>
                 </div>
-
+    
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="endereco">Endereço</label>
                     <input name="endereco" id="endereco" class="campo__escrita" required />
